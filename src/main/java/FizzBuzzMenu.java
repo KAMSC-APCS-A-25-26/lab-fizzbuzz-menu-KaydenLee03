@@ -1,12 +1,10 @@
 import java.util.Scanner;
 
-// DO NOT CHANGE THE CLASS NAME, IT WILL BREAK THE AUTO GRADER
 public class FizzBuzzMenu {
     public static void main(String[] args) {
         boolean running = true;
 
         while (running) {
-            //Prompt user to enter menu options
             System.out.println("Menu Options:");
             System.out.println("Option 1: Display Fizz numbers (multiples of 3)");
             System.out.println("Option 2: Display Buzz numbers (multiples of 5)");
