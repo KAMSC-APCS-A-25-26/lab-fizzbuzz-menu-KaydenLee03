@@ -10,7 +10,7 @@ public class FizzBuzzMenu {
             System.out.println("2. Buzz (Multiples of 5)");
             System.out.println("3. FizzBuzz (Multiples of 3 and 5)");
             System.out.println("4. Exit");
-            System.out.println("Enter your choice: ");
+            System.out.print("Enter your choice: ");
 
             Scanner scanner = new Scanner(System.in);
             int numCase = scanner.nextInt();
@@ -18,10 +18,12 @@ public class FizzBuzzMenu {
             switch (numCase) {
                 case 1:
                     for (int i = 1; i <= 100; i++) {
-                        if (i % 3 == 0) {
+                        if (i % 3 == 0)
+                        {
                             System.out.print(i + " ");
                         }
                     }
+                    System.out.println("\n");
                     break;
                 case 2:
                     for (int i = 1; i <= 100; i++) {
@@ -29,6 +31,7 @@ public class FizzBuzzMenu {
                             System.out.print(i + " ");
                         }
                     }
+                    System.out.println("\n");
                     break;
                 case 3:
                     for (int i = 1; i <= 100; i++) {
@@ -36,10 +39,11 @@ public class FizzBuzzMenu {
                             System.out.print(i + " ");
                         }
                     }
+                    System.out.println("\n");
                     break;
                 case 4:
                     running = false;
-                    System.out.println("Goodbye!");
+                    System.out.println("Goodbye!\n");
                     break;
             }
         }
