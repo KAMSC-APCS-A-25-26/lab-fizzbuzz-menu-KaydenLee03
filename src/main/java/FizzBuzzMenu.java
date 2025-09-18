@@ -7,12 +7,12 @@ public class FizzBuzzMenu {
 
         while (running) {
             //Prompt user to enter menu options
-            System.out.println("\n\nMenu Options:");
+            System.out.println("Menu Options:");
             System.out.println("Option 1: Display Fizz numbers (multiples of 3)");
             System.out.println("Option 2: Display Buzz numbers (multiples of 5)");
             System.out.println("Option 3: Display FizzBuzz numbers (multiples of both 3 and 5)");
             System.out.println("Option 4: Exit the program");
-            System.out.print("\nEnter your option: ");
+            System.out.println("Enter your option: ");
 
             Scanner scanner = new Scanner(System.in);
             int numCase = scanner.nextInt();
