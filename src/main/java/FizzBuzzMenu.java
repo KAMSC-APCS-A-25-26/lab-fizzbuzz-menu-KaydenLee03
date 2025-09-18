@@ -5,12 +5,12 @@ public class FizzBuzzMenu {
         boolean running = true;
 
         while (running) {
-            System.out.println("Menu Options:");
-            System.out.println("Option 1: Display Fizz numbers (multiples of 3)");
-            System.out.println("Option 2: Display Buzz numbers (multiples of 5)");
-            System.out.println("Option 3: Display FizzBuzz numbers (multiples of both 3 and 5)");
-            System.out.println("Option 4: Exit the program");
-            System.out.println("Enter your option: ");
+            System.out.println("--- FizzBuzz Menu ---");
+            System.out.println("1. Fizz (Multiples of 3)");
+            System.out.println("2. Buzz (Multiples of 5)");
+            System.out.println("3. FizzBuzz (Multiples of 3 and 5)");
+            System.out.println("4. Exit");
+            System.out.println("Enter your choice: ");
 
             Scanner scanner = new Scanner(System.in);
             int numCase = scanner.nextInt();
