@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class FizzBuzzMenu {
     public static void main(String[] args) {
         boolean running = true;
-
+        Scanner input = new Scanner(System.in);
         while (running) {
             System.out.println("--- FizzBuzz Menu ---");
             System.out.println("1. Fizz (Multiples of 3)");
@@ -12,8 +12,7 @@ public class FizzBuzzMenu {
             System.out.println("4. Exit");
             System.out.print("Enter your choice: ");
 
-            Scanner scanner = new Scanner(System.in);
-            int numCase = scanner.nextInt();
+            int numCase = input.nextInt();
 
             switch (numCase) {
                 case 1:
